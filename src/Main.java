@@ -1,5 +1,4 @@
 import sorted.*;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -16,7 +15,7 @@ public class Main {
 
         // Bubble Sort
         System.out.println("Bubble Sort:");
-        Bubble_Sort.sort(arr_1.clone());
+        Bubble_Sort.sort(arr_1);
         printArray(arr_1);
 
         // Insertion Sort
